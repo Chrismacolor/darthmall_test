@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 
 export default function Home() {
   return (
     <Layout>
-     <h1>Darth Malls NFT</h1> 
+     <h1 className='text-5xl font-extrabold'>Darth Malls NFT</h1> 
     </Layout>
   )
 }
